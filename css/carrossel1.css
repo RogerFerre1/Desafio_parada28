@@ -1,0 +1,102 @@
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 1400px;
+    right: 1245px;
+    margin-right: 286px;
+    width: auto;
+    padding: 16px;
+    margin-bottom: 500%;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #000000a2;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.next{ right: 0;}
+
+.prev:hover, .next:hover{
+    background-color: #000000;
+    transition: 0.6s;
+}
+
+.prev1, .next1{
+    cursor: pointer;
+    position: absolute;
+    top: 950px;
+    right: 1245px;
+    margin-right: 286px;
+    width: auto;
+    padding: 16px;
+    margin-bottom: 500%;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #000000a2;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.next1{ right: 0;}
+
+.prev1:hover, .next1:hover{
+    background-color: #000000;
+    transition: 0.6s;
+}
+
+.n_text{
+    margin-top: 1189px;
+    margin-left: 348px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.i_text{
+    background-color: #0000009d;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px; 
+}
+
+.dot_box{
+    text-align: center;
+    padding: 10px;
+}
+
+.dot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    background-color: #727385;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active, .dot:hover{
+    background-color: #e6e6e6;
+    transition: 0.6s;
+}
+
+.img1{
+    -webkit-animation-name: img1;
+    -webkit-animation-duration: 2s;
+    animation-name: img1;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes img1{
+    from{ opacity: 0.3; }
+    to{ opacity: 1; }
+}
+
+@keyframes img1{
+    from{ opacity: 0.1; }
+    to{ opacity: 1; }
+}

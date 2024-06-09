@@ -1,0 +1,152 @@
+:root{
+    --color_01: #ffffff;
+    --color_02: #c7c6c6;
+    --color_03: #000000;
+    --color_04: #ff0000;
+}
+
+body{
+    background-image: url("../img/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    size: 100%;
+    padding: 0px;
+}
+
+.main{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify;
+    background-color: var(--color_01);
+}
+
+.header{
+    padding: 30px;
+
+
+}
+
+.header img{
+    width: 250px;
+}
+
+.nav{
+    background-color: var(--color_02);
+    border-top: 8px solid var(--color_03);
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+.nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 6px;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.content{
+    display: flex;
+}
+
+.box{
+    padding: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box h2{
+    border-bottom: 8px solid var(--color_03) ;
+    background-color: var(--color_02);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.content img{
+    width: 600px;
+    height: 500px;
+
+    
+
+}
+.box ,.titulo h2 {
+    width: 100%;
+    padding: 0px;
+   
+   
+}
+
+.imgcontainer{
+    text-align: center;
+    width: 100%;
+}
+
+
+.link{
+    font-size: 25px;
+
+}
+.footer{
+    border-top: 8px solid var(--color_03);
+    background-color: var(--color_02);
+    text-align: center;
+    height: 65px;
+}
+
+@media  screen and (max-width: 1024px) {
+    .main{
+        width: 85%;
+    }
+}
+
+@media screen and ( max-width: 768px){
+    body{
+        background-image: none;
+
+    }
+    .main{
+        width: auto;
+        font-size: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content img{
+        width: 100%;
+    }
+
+}
+
+@media  screen and ( max-width: 320px) {
+    body{
+        background-image: none;
+    }
+    .main{
+        width: 100%;
+        font-size: 14px;
+    }
+    .content{
+        flex-direction: column;
+        
+    }
+    .content img{
+        width: 100%;
+    }
+    
+    
+}
